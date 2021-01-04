@@ -44,4 +44,5 @@ public class InfoPage extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
 }
