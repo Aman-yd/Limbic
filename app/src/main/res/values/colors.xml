@@ -6,6 +6,6 @@
     <color name="blue">#52B8DC</color>
     <color name="violet">#BA78B3</color>
     <color name="white">#D8E6E9</color>
-
+    <color name="transparentBlack">#66000000</color>
 
 </resources>
