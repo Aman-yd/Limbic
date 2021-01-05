@@ -26,10 +26,10 @@ public class InfoPage extends AppCompatActivity {
         pager.setAdapter(mpagerAdapter);
 
 
-        dotIndicatior();
+        dotIndicator();
     }
 
-    public void dotIndicatior() {
+    public void dotIndicator() {
         dots = new TextView[3];
         for (int i = 0; i < dots.length; i++) {
             dots[i] = new TextView(this);

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map"
+    tools:context=".Company">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="About Us"
+            android:textSize="44dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="490dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="We meet clients wherever they are on their paths to change—in every industry across the globe—and partner with them to create lasting value. “Unlike most other language — which is stored in cerebral cortex, the brain’s center for higher learning — curse words are stored in the limbic system, our most basic, lizard brain level”."
+            android:textSize="28dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Our Mission"
+            android:textSize="44dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="330dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="LimTeck focuses on delivering valuable business results with flexibility, competency, and simplifying processes, which makes it a reliable provider of comprehensive IT solutions."
+            android:textSize="28dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Our Plan"
+            android:textSize="44dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="We offer a complete spectrum of providing mobile and web applications,Web Development, Software Development, and many more services to startups and enterprises all over the world."
+            android:textSize="28dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</ScrollView>

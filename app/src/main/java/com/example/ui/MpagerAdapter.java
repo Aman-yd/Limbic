@@ -11,7 +11,7 @@ import androidx.viewpager.widget.PagerAdapter;
 public class MpagerAdapter extends PagerAdapter {
     private int[] layouts;
     private LayoutInflater inflater;
-    private Context context;
+    public Context context;
 
     public MpagerAdapter(int[] layouts, Context context) {
         this.layouts = layouts;
