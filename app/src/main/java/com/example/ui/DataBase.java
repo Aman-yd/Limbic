@@ -11,12 +11,11 @@ import static java.sql.Types.NULL;
 public class DataBase extends SQLiteOpenHelper {
 
     public static final String DBName="CompanyDetails.db";
-    public static final String CompanyId="Limtec";
-    public static final String CompanyName="Limbic Technologies";
-    public static final String CompanyLocation="Bhopal";
-    public static final String CompanyFoundedIn="Jan 2019";
-    public static final String CompanyFounder="Abhi";
-    public static final String CompanyCoFounder="Archee";
+    public static final String TABLE_NAME = "CompanyTable";
+    public static final String COL1="CompanyId";
+    public static final String COL2="CompanyName";
+    public static final String COL3="CompanyLocation";
+    public static final String COL4="CompanyFoundedIn";
 
 
 
@@ -26,7 +25,7 @@ public class DataBase extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-
+        db.execSQL("create table "+TABLE_NAME+"(CompanyId INTERGER PRIMARY KEY AUTOINCREMENT,CompanyName text)");
     }
 
     @Override
