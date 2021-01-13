@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
-
     <domain-config cleartextTrafficPermitted="true">
         <domain includeSubdomains="true">[2405:201:3003:9851:70b4:73b0:27e3:c798]</domain>
     </domain-config>
